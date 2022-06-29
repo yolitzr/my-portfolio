@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import { Header, About, Services } from '../components/index.js'
+import { Header, About, Services, Portfolio } from '../components/index.js'
 import { useIcons } from "../hooks"
 
 
@@ -20,6 +20,11 @@ const IndexPage = () => {
     <Services
       title="Services"
       subTitle="What do I offer?"
+      description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam. Exercitationem dicta ullam vel at possimus deleniti aut fuga dolorum! Quod magni reiciendis aliquid eveniet aliquam neque!"
+    />
+    <Portfolio 
+      title="Portfolio"
+      subTitle="Works & Projects"
       description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam. Exercitationem dicta ullam vel at possimus deleniti aut fuga dolorum! Quod magni reiciendis aliquid eveniet aliquam neque!"
     />
   </Layout>
