@@ -6,7 +6,7 @@ import PropTypes from "prop-types"
 const About = ({ title, subTitle, description, icons }) => {
 
   return (
-    <section className="container mx-auto py-14 px-8 lg:py-32 flex items-center flex-col gap-8 lg:gap-20 lg:flex-row">
+    <section className="container mx-auto py-14 px-8 lg:py-28 flex items-center flex-col gap-8 lg:gap-20 lg:flex-row">
       <div className="relative">
         <StaticImage src="../../images/dots.png" alt="Background" className="absolute top-0 left-0 w-2/4 -z-10" />
         <div className="w-auto">

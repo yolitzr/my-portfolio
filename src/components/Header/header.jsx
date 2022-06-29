@@ -18,7 +18,7 @@ const Header = () => (
             />
           </span>
         </div>
-        <a href="" download="CV Yolitzareth Zacarias" className="mx-auto lg:ml-0 lg:my-auto px-4 py-2 bg-purple-800 text-white font-semibold rounded-lg shadow-sm transition duration-300 hover:bg-purple-500">Descargar CV</a>
+        <a href="" download="CV Yolitzareth Zacarias" className="mx-auto lg:ml-0 lg:my-auto px-4 py-2 bg-purple-800 text-white font-semibold rounded-lg shadow-sm transition duration-300 delay-75 hover:scale-105 hover:bg-purple-500">Descargar CV</a>
       </div>
       <div className="w-ful p-2 mx-auto">
         <StaticImage src="../../images/img-header.svg" alt="Girl Developer" />

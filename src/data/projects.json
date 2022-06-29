@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Productly",
+    "techns": [
+      {
+        "id": 1,
+        "name": "HTML"
+      },
+      {
+        "id": 1,
+        "name": "CSS"
+      }
+    ],
+    "image": "../images/projects/image-1.jpg",
+    "url": "https://vibrant-cray-14ddc7.netlify.app/"
+  },
+  {
+    "id": 2,
+    "name": "React Movie",
+    "techns": [
+      {
+        "id": 1,
+        "name": "ReactJS"
+      },
+      {
+        "id": 1,
+        "name": "styled-components"
+      }
+    ],
+    "image": "../images/projects/image-2.jpg",
+    "url": "https://vibrant-cray-14ddc7.netlify.app/"
+  },
+  {
+    "id": 3,
+    "name": "Yolits Books",
+    "techns": [
+      {
+        "id": 1,
+        "name": "NextJS"
+      },
+      {
+        "id": 1,
+        "name": "TailwindCSS"
+      }
+    ],
+    "image": "../images/projects/image-1.jpg",
+    "url": "https://vibrant-cray-14ddc7.netlify.app/"
+  },
+  {
+    "id": 4,
+    "name": "Alberto Urbaez Portfolio",
+    "techns": [
+      {
+        "id": 1,
+        "name": "NextJS"
+      },
+      {
+        "id": 1,
+        "name": "TailwindCSS"
+      }
+    ],
+    "image": "../images/projects/image-2.jpg",
+    "url": "https://vibrant-cray-14ddc7.netlify.app/"
+  } 
+]
