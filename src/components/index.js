@@ -1,4 +1,6 @@
 import About from "./About/about";
+import Contact from "./Contact/contact"
+import Footer from "./Footer/footer";
 import Header from "./Header/header";
 import NavBar from "./NavBar/navBar";
 import Portfolio from "./Portfolio/portfolio";
@@ -10,6 +12,8 @@ import SvgIcon from './Icon/icon'
 
 export {
   About,
+  Contact,
+  Footer,
   Header,
   NavBar,
   Portfolio,

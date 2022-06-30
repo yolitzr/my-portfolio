@@ -7,7 +7,7 @@ const Portfolio = ({ title, subTitle, description, projects }) => {
 
   return (
     <Section title={title} subTitle={subTitle} description={description}>
-      <div className="flex flex-wrap gap-8 justify-center items-center w-full mt-16">
+      <div className="flex flex-wrap gap-16 md:gap-12 justify-center items-center w-full mt-16">
         {projects.map(project => {
           const image = getImage(project.image)
 
@@ -15,11 +15,11 @@ const Portfolio = ({ title, subTitle, description, projects }) => {
             <div className="flex flex-col justify-start">
               <div key={project.id} className="relative w-auto">
                 <GatsbyImage image={image} alt={project.name} className="w-60 h-72 md:w-72 lg:w-80 rounded-lg" />
-                <div className="absolute bottom-0 w-60 md:w-72 lg:w-80 h-auto p-4 bg-purple-400 rounded-b-lg">
+                <div className="absolute bottom-0 w-60 md:w-72 lg:w-80 h-auto p-4 bg-purple-300 rounded-b-lg">
                   <h2 className="text-base text-gray-700 font-semibold tracking-wide">{project.name}</h2>
                   <div className="flex gap-2 mt-2">
                     {project.techns.map(techn => (
-                      <p key={techn.key} className="px-3 py-1 bg-white text-sm font-medium text-purple-700">{techn.name}</p>
+                      <p key={techn.key} className="px-3 py-1 bg-white text-sm font-medium text-purple-700 border border-purple-400">{techn.name}</p>
                     ))}
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import { Header, About, Services, Portfolio } from '../components/index.js'
+import { Header, About, Services, Portfolio, Contact } from '../components/index.js'
 import { useIcons, useProjects } from "../hooks"
 
 
@@ -33,6 +33,11 @@ const IndexPage = () => {
       subTitle="Works & Projects"
       description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam. Exercitationem dicta ullam vel at possimus deleniti aut fuga dolorum! Quod magni reiciendis aliquid eveniet aliquam neque!"
       projects={projects}
+    />
+    <Contact
+      title="Contact"
+      subTitle="Get in touch"
+      description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam."
     />
   </Layout>
   )
