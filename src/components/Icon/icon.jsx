@@ -1,11 +1,11 @@
 import React from "react";
 
-const SvgIcon = ({ path }) => {
+const SvgIcon = ({ path, width, height, widthMD, heightMD }) => {
   return (
     <svg
       fill="currentColor"
       stroke="currentColor"
-      className="w-8 h-8 md:w-10 md:h-10 text-gray-700 hover:text-purple-500"
+      className={`'${width} ${height} md:${widthMD} md:${heightMD} text-gray-700 hover:text-purple-500 '`}
       strokeWidth="0"
       viewBox="0 0 24 24"
     >

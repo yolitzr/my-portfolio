@@ -10,10 +10,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <Seo title={title || `Home`} />
-    <NavBar/>
-    <main>{children}</main>
-    <Footer socialIcons={socialIcons}/>
+      <Seo title={title || `Home`} />
+      <NavBar/>
+      <main>{children}</main>
+      <Footer socialIcons={socialIcons}/>
     </>
   )
 }

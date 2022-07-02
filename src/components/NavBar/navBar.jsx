@@ -3,7 +3,7 @@ import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const NavBar = () => {
-  const  [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const onScroll = () => {
     window.onscroll = () => {
@@ -39,16 +39,16 @@ const NavBar = () => {
             <a href="#">Home</a>
           </li>
           <li className="hover:text-purple-600 transition">
-            <a href="#">About Me</a>
+            <a href="#about">About Me</a>
           </li>
           <li className="hover:text-purple-600 transition">
-            <a href="#">Services</a>
+            <a href="#services">Services</a>
           </li>
           <li className="hover:text-purple-600 transition">
-            <a href="#">Works</a>
+            <a href="#portfolio">Works</a>
           </li>
           <li className="hover:text-purple-600 transition">
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <FontAwesomeIcon icon={faMoon} className="hidden lg:block text-purple-500 cursor-pointer hover:text-purple-300" />

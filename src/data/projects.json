@@ -8,7 +8,7 @@
         "name": "HTML"
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "CSS"
       }
     ],
@@ -24,7 +24,7 @@
         "name": "ReactJS"
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "styled-components"
       }
     ],
@@ -40,7 +40,7 @@
         "name": "NextJS"
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "TailwindCSS"
       }
     ],
@@ -56,7 +56,7 @@
         "name": "NextJS"
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "TailwindCSS"
       }
     ],

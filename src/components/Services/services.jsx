@@ -6,7 +6,7 @@ import PropTypes from "prop-types"
 
 const Services = ({ title, subTitle, description }) => {
   return (
-    <Section title={title} subTitle={subTitle} description={description}>
+    <Section tagName="services" title={title} subTitle={subTitle} description={description}>
       <div className="w-full flex flex-wrap md:flex-nowrap justify-center gap-10 mt-16">
         <div className="w-full md:w-3/4 flex flex-col gap-4 p-6 rounded-lg shadow hover:bg-purple-50">
           <FontAwesomeIcon icon={faLaptop} className="w-6 h-6 p-6 bg-purple-200 text-purple-500 rounded-full" />
