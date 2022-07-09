@@ -20,7 +20,7 @@ const IndexPage = () => {
     <About
       title="About Me"
       subTitle="Lenaguage, Frameworks and Tools" 
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro cupiditate ut voluptatibus dolores fuga repudiandae illo totam perspiciatis reprehenderit, minus harum delectus velit reiciendis laudantium, impedit optio odit nemo consequatur!"
+      description="Soy una Front-End Developer apasionada por el buen diseño y experiencia de usuario en un desarrollo web. Trabajo con dedicación y pasión en cada proyecto."
       icons={icons}
     />
     <Services

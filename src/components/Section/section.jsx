@@ -5,9 +5,9 @@ const Section = ({ title, subTitle, description, tagName, children }) => {
   return (
     <section id={tagName} className="container mx-auto py-16 px-8">
       <div className="flex flex-col gap-3 items-center">
-        <h3 className="text-base text-purple-800 font-semibold uppercase">{title}</h3>
-        <h4 className="text-lg text-gray-800 font-semibold uppercase">{subTitle}</h4>
-        <p className="w-full md:w-1/2 text-gray-600 leading-7 text-center">{description}</p>
+        <h3 className="text-base text-purple-800 font-semibold uppercase dark:text-purple-400">{title}</h3>
+        <h4 className="text-lg text-gray-800 font-semibold uppercase dark:text-gray-200">{subTitle}</h4>
+        <p className="w-full md:w-1/2 text-gray-600 leading-7 text-center dark:text-gray-200">{description}</p>
       </div>
       {children}
     </section>

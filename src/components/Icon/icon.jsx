@@ -5,7 +5,7 @@ const SvgIcon = ({ path, width, height, widthMD, heightMD }) => {
     <svg
       fill="currentColor"
       stroke="currentColor"
-      className={`'${width} ${height} md:${widthMD} md:${heightMD} text-gray-700 hover:text-purple-500 '`}
+      className={`'${width} ${height} md:${widthMD} md:${heightMD} text-gray-700 hover:text-purple-500 dark:text-purple-200 '`}
       strokeWidth="0"
       viewBox="0 0 24 24"
     >

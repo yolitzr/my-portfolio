@@ -6,7 +6,7 @@ import PropTypes from "prop-types"
 const About = ({ title, subTitle, description, icons }) => {
 
   return (
-    <section id="about" className="container mx-auto py-14 px-8 lg:py-28 flex items-center flex-col gap-8 lg:gap-20 lg:flex-row">
+    <section id="about" className="container mx-auto max-w-7xl py-14 px-8 lg:py-28 flex items-center flex-col gap-8 lg:gap-20 lg:flex-row">
       <div className="relative">
         <StaticImage src="../../images/dots.png" alt="Background" className="absolute top-0 left-0 w-2/4 -z-10" />
         <div className="w-auto">
@@ -15,11 +15,11 @@ const About = ({ title, subTitle, description, icons }) => {
       </div>
       <div className="flex flex-col my-auto">
         <div className="my-2">
-          <h3 className="mb-4 text-lg text-purple-800 font-semibold uppercase">{title}</h3>
-          <p className="text-sm text-gray-600 leading-6">{description}</p>
+          <h3 className="mb-4 text-lg text-purple-800 font-semibold uppercase dark:text-purple-400">{title}</h3>
+          <p className="text-sm text-gray-600 leading-6 dark:text-white">{description}</p>
         </div>
         <div className="my-4">
-          <h4 className="mb-8 text-lg text-purple-800 font-semibold uppercase">{subTitle}</h4>
+          <h4 className="mb-8 text-lg text-purple-800 font-semibold uppercase dark:text-purple-400">{subTitle}</h4>
           <div className="w-full flex flex-wrap gap-8 justify-center lg:justify-start items-center"> 
             {icons && 
               icons.map(icon => (

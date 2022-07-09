@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 
 const Footer = ({ socialIcons }) => {
   return(
-    <footer className="w-full py-10 px-8">
+    <footer className="w-full py-10 px-8 dark:bg-slate-800">
       <div className="flex justify-center items-center gap-4 mb-4">
         {socialIcons.map(social => (
           <a href={social.urlSocial} key={social.id}>
@@ -12,7 +12,7 @@ const Footer = ({ socialIcons }) => {
           </a>
         ))}
       </div>
-      <p className="text-gray-700 font-bold text-center">Yolitzareth Zacarias © {new Date().getFullYear()} &middot; Built with  {` `} <a href="https://www.gatsbyjs.com">Gatsby</a></p>
+      <p className="text-gray-700 font-bold text-center dark:text-purple-200">Yolitzareth Zacarias © {new Date().getFullYear()} &middot; Built with  {` `} <a href="https://www.gatsbyjs.com">Gatsby</a></p>
     </footer>
   )
 }
