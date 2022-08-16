@@ -1,26 +1,24 @@
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from "prop-types"
-import { NavBar, Seo, Footer } from './index.js'
-import { useData, useSocialIcons } from '../hooks'
+import { NavBar, Seo, Footer } from "./index.js"
+import { useData, useSocialIcons, useHome } from "../hooks"
 
 const Layout = ({ children }) => {
-  const [ isDark, setIsDark ] = useState('dark')
-  const { site: { siteMetadata: { title }} } = useData()
+  const { isDark, onChangeMode } = useHome()
+  const {
+    site: {
+      siteMetadata: { title },
+    },
+  } = useData()
   const { allIconSocialJson } = useSocialIcons()
   const socialIcons = allIconSocialJson?.nodes
-
-  const swichMode = () => {
-
-    console.log('Hola')
-  }
-
 
   return (
     <>
       <Seo title={title || `Home`} />
-      <NavBar />
+      <NavBar isDark={isDark} onChangeMode={onChangeMode} />
       <main className="dark:bg-slate-800">{children}</main>
-      <Footer socialIcons={socialIcons}/>
+      <Footer socialIcons={socialIcons} />
     </>
   )
 }
