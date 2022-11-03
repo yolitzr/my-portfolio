@@ -47,7 +47,7 @@ const Services = ({ title, subTitle, description }) => {
             className="w-6 h-6 p-6 bg-purple-200 text-purple-500 rounded-full dark:bg-white dark:text-purple-400"
           />
           <h4 className="text-purple-700 font-semibold dark:text-purple-400">
-            Web Design - Mobile First
+            Accessibility - Best Practice
           </h4>
           <p className="text-sm text-gray-600 leading-6 dark:text-white">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus

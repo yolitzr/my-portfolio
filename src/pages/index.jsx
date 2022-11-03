@@ -27,22 +27,18 @@ const IndexPage = () => {
         description="¡Hola! soy apasionada por el buen diseño y experiencia de usuario en un desarrollo web. Trabajo con dedicación y pasión en cada proyecto. Constantemente aprendiendo sobre Front End y mis frameworks favoritos Gatsby.js y Next.js"
         icons={icons}
       />
-      <Services
+      {/* <Services
         title="Services"
-        subTitle="What do I offer?"
+        subTitle="Trabajo con"
         description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam. Exercitationem dicta ullam vel at possimus deleniti aut fuga dolorum! Quod magni reiciendis aliquid eveniet aliquam neque!"
-      />
+      /> */}
       <Portfolio
         title="Portfolio"
-        subTitle="Works & Projects"
-        description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam. Exercitationem dicta ullam vel at possimus deleniti aut fuga dolorum! Quod magni reiciendis aliquid eveniet aliquam neque!"
+        subTitle="Trabajos & Proyectos"
+        description="Proyectos realizados para aprender y mejorar conocimientos en las tecnologías On Demand como React.js y sus frameworks (Gatsby.js y Next.js)"
         projects={projects}
       />
-      <Contact
-        title="Contact"
-        subTitle="Get in touch"
-        description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos accusamus repellendus laboriosam."
-      />
+      <Contact title="Contact" subTitle="Get in touch" />
     </Layout>
   )
 }

@@ -57,9 +57,9 @@ const NavBar = ({ onChangeMode, isDark }) => {
           <li className="hover:text-purple-600 transition dark:text-white dark:hover:text-purple-400">
             <a href="#about">About Me</a>
           </li>
-          <li className="hover:text-purple-600 transition dark:text-white dark:hover:text-purple-400">
+          {/* <li className="hover:text-purple-600 transition dark:text-white dark:hover:text-purple-400">
             <a href="#services">Services</a>
-          </li>
+          </li> */}
           <li className="hover:text-purple-600 transition dark:text-white dark:hover:text-purple-400">
             <a href="#portfolio">Works</a>
           </li>

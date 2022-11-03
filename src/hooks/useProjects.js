@@ -12,6 +12,7 @@ const useProjects = () => {
             name
           }
           url
+          github
           image {
             childImageSharp {
               gatsbyImageData
@@ -25,4 +26,4 @@ const useProjects = () => {
   return query
 }
 
-export default useProjects;
+export default useProjects

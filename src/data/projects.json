@@ -1,22 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Productly",
-    "techns": [
-      {
-        "id": 1,
-        "name": "HTML"
-      },
-      {
-        "id": 2,
-        "name": "CSS"
-      }
-    ],
-    "image": "../images/projects/image-1.jpg",
-    "url": "https://vibrant-cray-14ddc7.netlify.app/"
-  },
-  {
-    "id": 2,
     "name": "React Movie",
     "techns": [
       {
@@ -26,13 +10,18 @@
       {
         "id": 2,
         "name": "styled-components"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
       }
     ],
-    "image": "../images/projects/image-2.jpg",
-    "url": "https://vibrant-cray-14ddc7.netlify.app/"
+    "image": "../images/projects/image-1.png",
+    "url": "https://angry-tesla-661ded.netlify.app/",
+    "github": "https://github.com/yolitzr/react-movie"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Yolits Books",
     "techns": [
       {
@@ -42,13 +31,18 @@
       {
         "id": 2,
         "name": "TailwindCSS"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
       }
     ],
-    "image": "../images/projects/image-1.jpg",
-    "url": "https://vibrant-cray-14ddc7.netlify.app/"
+    "image": "../images/projects/image-3.png",
+    "url": "https://yolitsbooks.com/",
+    "github": "https://github.com/yolitzr/my-literaty-blog"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Alberto Urbaez Portfolio",
     "techns": [
       {
@@ -58,9 +52,39 @@
       {
         "id": 2,
         "name": "TailwindCSS"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript"
       }
     ],
-    "image": "../images/projects/image-2.jpg",
-    "url": "https://vibrant-cray-14ddc7.netlify.app/"
-  } 
+    "image": "../images/projects/image-2.png",
+    "url": "https://albertourbaez.com/",
+    "github": "https://github.com/"
+  },
+  {
+    "id": 1,
+    "name": "Ola - Call for Papers",
+    "techns": [
+      {
+        "id": 1,
+        "name": "NextJS"
+      },
+      {
+        "id": 2,
+        "name": "Tailwind CSS"
+      },
+      {
+        "id": 2,
+        "name": "StoryBook"
+      },
+      {
+        "id": 2,
+        "name": "Typescript"
+      }
+    ],
+    "image": "../images/projects/image-4.png",
+    "url": "https://water-call-for-papers.vercel.app/",
+    "github": "https://github.com/frontendcafe/water-call-for-papers"
+  }
 ]
